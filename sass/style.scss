@@ -80,7 +80,6 @@ nav {
 header.hero-img {
 	position: relative;
 	height: 100vh;
-	// background-image: url(../img/IMG_20230703_121540.jpg);
 	background-size: cover;
 	background-position: center;
 	z-index: 0;
@@ -204,6 +203,46 @@ header.hero-img {
 		}
 	}
 }
+.neighborhood{
+	#buttonContainer {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 10px;
+		
+	  }
+	
+	  #buttonContainer img {
+		// width: 300px;
+		height: 200px;
+		padding: 25px 25px 25px ;
+		cursor: pointer;
+		transition: transform 0.2s;
+	  }
+	
+	  #buttonContainer img:hover {
+		transform: scale(1.1);
+	  }
+}
+
+
+.contact-info {
+    font-size: 16px;
+    margin: 20px 0;
+	p{
+		margin: 10px 0;
+	}
+	a{
+		color: #007bff;
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+	i{
+		margin-right: 10px;
+	}
+  }
+
 
 @media (min-width: 768px) {
 	nav {

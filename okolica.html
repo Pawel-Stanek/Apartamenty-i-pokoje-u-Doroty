@@ -15,22 +15,20 @@
     <script src="https://kit.fontawesome.com/b4c853afd9.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+<body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3" id="navId">
         <div class="container">
             <a class="navbar-brand" href="./index.html#home"> <i class="fa-solid fa-mountain-sun"
-                    style="color: #609966;"></i> U
-                Doroty</a>
+                    style="color: #609966;"></i> U Doroty</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+                <i class="fa-solid fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link  aria-current=" page" href="./index.html#home">Home</a>
+                    <a class="nav-link " href="./index.html#home">Home</a>
                     <a class="nav-link " href="./index.html#aboutus">O nas</a>
-                    <a class="nav-link " href="./oferta.html">Oferta</a>
-                    <a class="nav-link active"" href=" #neighborhood">Okolica</a>
+                    <a class="nav-link " href="./oferta.html">Oferta </a>
+                    <a class="nav-link active" href="/okolica.html">Okolica</a>
                     <a class="nav-link" href="./kontakt.html">Kontakt</a>
                 </div>
             </div>
@@ -39,9 +37,8 @@
     <header class="hero-img" id="neighborhood" style="background-image: url(./img/okolica-bgc.jpg);">
         <div class="hero-text text-center p-2">
             <h1>Nasza okolica</h1>
-            <p>Obiekt Apartamenty i Pokoje u Doroty jest położony w ustronnym miejscu w Karpaczu, 2 km od jego centrum.
-                Poniżej zamieszczamy mapę z głownymi atrakcjami w okolicy, żeby nasi Gościę mogli jeszcze łatwiej
-                zaplanować swój pobyt.</p>
+            <p>Obiekt Apartamenty i Pokoje u Doroty jest położony w ustronnym miejscu przy granicy Karpacza, zaledwie 2
+                km od jego centrum. Poniżej zamieszczamy kilka atrakcji w okolicy, żeby nasi Goście mogli jeszcze łatwiej zaplanować swój pobyt.</p>
             <a href="#neighborhood-below" class="btn btn-outline-light mt-2 text-uppercase">Mapa atrakcji</a>
         </div>
         <div class="hero-shadow"></div>
@@ -50,32 +47,35 @@
 
     <main>
         <section id="neighborhood-below" class="neighborhood">
-
             <div class="col-12 ">
-                <div class="neighborhood-text pt-4">
+                <div class="neighborhood-text">
                     <h2 class="section-title ">Okolica</h2>
-                    <div class="underline"></div>
+                    <div class="underline" style="height: 5px;"></div>
                     <div class="container">
-                        <div class="row ">
-                            <div class="col-sm-6 col-md-4 text-center py-1">
-                               
-                                <h3 class="py-2">Market  <i class="fa-solid fa-cart-shopping fa-2xl"></i></h3>
-                                <i class="fa-solid fa-person-walking fa-lg">  10 min</i>
-                                <i class="fa-solid fa-car-side fa-lg">   3 min</i>
-                              
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 text-center time-icon" >
+
+                                <h3 class="">Market <i class="fa-solid fa-cart-shopping fa-ml"></i></h3>
+                                <div class="underline my-1" style="height: 3px; width: 200px;"></div>
+                                <i class="fa-solid fa-person-walking fa-lg"> 20 min</i>
+                                <i class="fa-solid fa-car-side fa-lg"> 5 min</i>
 
                             </div>
-                            <div class="col-sm-6 col-md-4 text-center py-1">
-                                <h2>9.5</h2>
-                                <p class="aboutus-card-title mb-1 ">Odogodnienia</p>
+                            <div class="col-sm-6 col-md-4 text-center time-icon " >
+
+                                <h3>Centrum <i class="fa-solid fa-mountain-city fa-ml"></i></h3>
+                                <div class="underline my-1" style="height: 3px; width: 200px;"></div>
+                                <i class="fa-solid fa-person-walking fa-lg"> 30 min</i>
+                                <i class="fa-solid fa-car-side fa-lg"> 7 min</i>
 
                             </div>
-                            <div class="col-sm-6 col-md-4 text-center py-1">
-                                <h2>9.7</h2>
-                                <p class="aboutus-card-title mb-1 ">Czystość</p>
+                            <div class="col-sm-12 col-md-4 text-center time-icon" >
 
-                            </div>
-                            
+                                <h3>Przystanek <i class="fa-solid fa-bus fa-ml"></i></h3>
+                                <div class="underline my-1" style="height: 3px; width: 200px;"></div>
+                                <i class="fa-solid fa-person-walking fa-lg"> 10 min</i>
+                                <i class="fa-solid fa-car-side fa-lg"> 3 min</i>
+
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                                 class="fa-solid fa-person-hiking text-right mr-10"></i></h3>
                         <div class="underline"></div>
                         <p class="text-center ">
-                            Nie trzeba odrazu wchodzić na Śnieżkę chociaż to główny szczyt Karkonoszy i zachęcamy do
+                            Nie trzeba od razu wchodzić na Śnieżkę chociaż to główny szczyt Karkonoszy i zachęcamy do
                             jego odwiedzenia to na przykład, przyjemnym i łatwym celem wycieczki jest spacer do Samotni
                             (na trasie
                             niebieskiego szlaku) lub spacer po urokliwych lasach w okolicach Karpacza, tuż u stóp gór.
@@ -139,51 +139,7 @@
                             przyrodniczych
                         </p>
                     </div>
-                    <!-- <div class="container px-4 text-center  ">
-                        <div class="row ">
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAB" src="./img/neighborhood/1.jpg" alt="Przycisk A->B">
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAC" src="./img/neighborhood/2.jpg" alt="Przycisk A->C">
-                        </div>
-
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAD" src="./img/neighborhood/3.jpg" alt="Przycisk A->D">
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAD" src="./img/neighborhood/3.jpg" alt="Przycisk A->D">
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAD" src="./img/neighborhood/3.jpg" alt="Przycisk A->D">
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAD" src="./img/neighborhood/3.jpg" alt="Przycisk A->D">
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAD" src="./img/neighborhood/3.jpg" alt="Przycisk A->D">
-                        </div>
-                        <div class="col-12 col-sm-6 col-md-3 col-xl-3">
-                            <img id="buttonAD" src="./img/neighborhood/3.jpg" alt="Przycisk A->D">
-                        </div>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="col-12">
-                    <div id="centeredImage" class="text-center">
-                        <img src="./img/map.jpg" alt="Obraz na środku" style="width: 50vw;">
-                    </div>
-                </div> -->
-
-
-                    <!-- <img src="./img/map.jpg"> -->
-
-
-
-
-
+                  
         </section>
 
     </main>

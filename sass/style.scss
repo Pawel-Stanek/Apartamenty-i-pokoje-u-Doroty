@@ -135,7 +135,7 @@ header.hero-img {
 	z-index: 0;
 	.opinions-bg {
 		width: 100vw;
-		background-image: url(../img/opinions/opinions-hero-img.jpg);
+		background-image: url(../img/home/opinions/opinions-bg.jpg);
 		position: relative;
 		background-size: cover;
 		background-position: center;
@@ -371,11 +371,13 @@ ul {
 			text-decoration: none;
 			// transition: 0.6s;
 		}
-
-		a:hover {
-			color: $nav-color-active;
-			font-weight: bold;
+		p:hover{
+			a{
+				color: $nav-color-active;
+				font-weight: bold;
+			}
 		}
+
 		i {
 			margin-right: 10px;
 		}
